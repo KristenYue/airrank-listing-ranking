@@ -1,0 +1,31 @@
+﻿Item,Setting
+Task,AirRank: Intelligent Airbnb Listing Ranking Based on Review Text
+Primary objective,Rank Airbnb listings
+Intermediate task,Predict review-level satisfaction score from review text
+Techniques used,CNN + BiLSTM
+Input file,step1_review_dataset.jsonl
+Total reviews,8204
+Total listings,276
+Train reviews,6059
+Validation reviews,1353
+Test reviews,792
+Train listings,192
+Validation listings,42
+Test listings,42
+Vocabulary size,4133
+Max sequence length,180
+Embedding dimension,128
+LSTM type,BiLSTM
+Hidden dimension,128
+CNN filters,64
+CNN kernel sizes,"[3, 4, 5]"
+Dropout,0.35
+Batch size,32
+Optimizer,Adam
+Learning rate,0.001
+Loss function,SmoothL1Loss on normalized review score
+Max epochs,12
+Early stopping patience,3
+Device,cpu
+Ranking baseline,Sort listings by avg_rating
+Final ranking score,"Weighted combination of predicted review quality, avg rating, stability, and confidence"

@@ -1,0 +1,22 @@
+2026-03-22 03:30:45,559 - INFO - 使用设备: cpu
+2026-03-22 03:30:45,560 - INFO - 项目主目标：Airbnb 房源排序（listing ranking）
+2026-03-22 03:30:45,560 - INFO - 中间模块：使用 CNN + BiLSTM 对评论文本进行满意度/评分建模
+2026-03-22 03:30:45,721 - INFO - 总评论数: 8204
+2026-03-22 03:30:45,724 - INFO - 总房源数: 276
+2026-03-22 03:30:45,729 - INFO - 评分分布:
+rating
+1.0       5
+2.0       7
+3.0      25
+4.0     297
+5.0    7870
+Name: count, dtype: int64
+2026-03-22 03:30:45,734 - INFO - Train reviews=6059, Val reviews=1353, Test reviews=792
+2026-03-22 03:30:45,735 - INFO - Train listings=192, Val listings=42, Test listings=42
+2026-03-22 03:30:45,761 - INFO - 词表大小: 4133
+2026-03-22 03:31:02,344 - INFO - Epoch [1/12] | train_loss=0.0036, train_mae=0.0843, train_rmse=0.3383, train_r2=-1.1601 | val_loss=0.0037, val_mae=0.0828, val_rmse=0.3460, val_r2=-0.0607
+2026-03-22 03:31:02,353 - INFO - ✅ 验证集 MAE 下降，已保存最佳模型（review scoring module）
+2026-03-22 03:31:16,878 - INFO - Epoch [2/12] | train_loss=0.0017, train_mae=0.0404, train_rmse=0.2337, train_r2=-0.0308 | val_loss=0.0037, val_mae=0.0828, val_rmse=0.3460, val_r2=-0.0607
+2026-03-22 03:31:35,627 - INFO - Epoch [3/12] | train_loss=0.0017, train_mae=0.0404, train_rmse=0.2337, train_r2=-0.0308 | val_loss=0.0037, val_mae=0.0828, val_rmse=0.3460, val_r2=-0.0607
+2026-03-22 03:31:53,178 - INFO - Epoch [4/12] | train_loss=0.0017, train_mae=0.0405, train_rmse=0.2337, train_r2=-0.0307 | val_loss=0.0037, val_mae=0.0828, val_rmse=0.3460, val_r2=-0.0605
+2026-03-22 03:31:53,178 - INFO - ⏹️ 触发 Early Stopping

@@ -1,0 +1,37 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Dataset: keep only its instructions in Git
+data/*
+!data/README.md
+
+# Review-level exports contain complete review text and review IDs.
+# Keep them locally, but do not publish them in the public repository.
+outputs/step2_review_predictions.jsonl
+outputs/test_review_predictions.csv
+outputs/largest_errors.csv
+

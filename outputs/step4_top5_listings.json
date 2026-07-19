@@ -1,0 +1,72 @@
+[
+  {
+    "listing_id": "40203245",
+    "review_count": 58,
+    "avg_rating": 5.0,
+    "mean_pred_rating": 4.9999998355733934,
+    "std_pred_rating": 7.660270218049307e-07,
+    "mean_review_score": 0.9999999588933485,
+    "avg_rating_norm": 1.0,
+    "mean_pred_norm": 0.9999999588933484,
+    "stability": 0.9999996169864891,
+    "confidence": 1.0,
+    "listing_score": 0.9999999199393149,
+    "final_score": 0.9999999199393149
+  },
+  {
+    "listing_id": "49804976",
+    "review_count": 78,
+    "avg_rating": 5.0,
+    "mean_pred_rating": 4.999999614862295,
+    "std_pred_rating": 2.1074889451044766e-06,
+    "mean_review_score": 0.9999999037155738,
+    "avg_rating_norm": 1.0,
+    "mean_pred_norm": 0.9999999037155738,
+    "stability": 0.9999989462555274,
+    "confidence": 1.0,
+    "listing_score": 0.9999997889818946,
+    "final_score": 0.9999997889818946
+  },
+  {
+    "listing_id": "26939959",
+    "review_count": 137,
+    "avg_rating": 5.0,
+    "mean_pred_rating": 4.99999948835721,
+    "std_pred_rating": 2.1156641576996376e-06,
+    "mean_review_score": 0.9999998720893024,
+    "avg_rating_norm": 1.0,
+    "mean_pred_norm": 0.9999998720893024,
+    "stability": 0.9999989421679212,
+    "confidence": 1.0,
+    "listing_score": 0.9999997709743045,
+    "final_score": 0.9999997709743045
+  },
+  {
+    "listing_id": "1346323242120150199",
+    "review_count": 73,
+    "avg_rating": 5.0,
+    "mean_pred_rating": 4.999999274946239,
+    "std_pred_rating": 3.5041219486414276e-06,
+    "mean_review_score": 0.9999998187365597,
+    "avg_rating_norm": 1.0,
+    "mean_pred_norm": 0.9999998187365597,
+    "stability": 0.9999982479390257,
+    "confidence": 1.0,
+    "listing_score": 0.9999996374959619,
+    "final_score": 0.9999996374959619
+  },
+  {
+    "listing_id": "21782123",
+    "review_count": 59,
+    "avg_rating": 5.0,
+    "mean_pred_rating": 4.9999992079653985,
+    "std_pred_rating": 4.166963890611493e-06,
+    "mean_review_score": 0.9999998019913495,
+    "avg_rating_norm": 1.0,
+    "mean_pred_norm": 0.9999998019913496,
+    "stability": 0.9999979165180547,
+    "confidence": 1.0,
+    "listing_score": 0.9999995785729506,
+    "final_score": 0.9999995785729506
+  }
+]

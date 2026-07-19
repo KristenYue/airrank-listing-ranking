@@ -1,0 +1,10 @@
+﻿Metric,Value
+Top-K,10.0
+Model Top-K Avg Rating,4.997877300121529
+Baseline Top-K Avg Rating,5.0
+Model Top-K Avg Review Count,105.5
+Baseline Top-K Avg Review Count,73.5
+Model Top-K Stability,0.9999982486166346
+Baseline Top-K Stability,0.9999982010050517
+Model Top-K Final Score,0.9998404247314374
+Baseline Top-K Final Score,0.9936241841948256
